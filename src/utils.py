@@ -53,10 +53,10 @@ def tunning_results(study, path):
 
 	study.trials_dataframe().to_csv(f"{path_to_save}/tunning_trials.csv", index=False)
 
-	optuna.visualization.plot_edf(study).write_image(f"{os.getenv('MODELS_PATH')}/{get_nb_name()}/tunning/edf.png")
-	optuna.visualization.plot_optimization_history(study).write_image(f"{os.getenv('MODELS_PATH')}/{get_nb_name()}/tunning/plot_optimization_history.png")
-	optuna.visualization.plot_param_importances(study).write_image(f"{os.getenv('MODELS_PATH')}/{get_nb_name()}/tunning/plot_param_importances.png")
-	optuna.visualization.plot_contour(study).write_image(f"{os.getenv('MODELS_PATH')}/{get_nb_name()}/tunning/plot_contour.png")
+	optuna.visualization.plot_edf(study).write_image(f"{path_to_save}/edf.png")
+	optuna.visualization.plot_optimization_history(study).write_image(f"{path_to_save}/plot_optimization_history.png")
+	optuna.visualization.plot_param_importances(study).write_image(f"{path_to_save}/plot_param_importances.png")
+	optuna.visualization.plot_contour(study).write_image(f"{path_to_save}/plot_contour.png")
 
 	print(f"Results saved in {path_to_save}")
 
