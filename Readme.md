@@ -19,7 +19,7 @@ python3 -m venv venv
 source venv/bin/activate
 mkdir data data/processed data/raw data/checkpoint
 mkdir notebooks src docs artifacts
-touch .env .gitignore
+touch .env .gitignore log.txt
 echo .env > .gitignore
 echo venv >> .gitignore
 echo data/ >> .gitignore
@@ -46,5 +46,10 @@ pip freeze > requirements.txt
 
 1. Preprocessing must finish with datasets for modeling: [x_train, x_test, y_train, y_test] or equivalent
 2. Data generated in preprocessing must be loaded in dir with the same name of preprocessing file. Intermediate results in data/checkpoint and final data in data/processed.
+
+## Changelog
+
+- 20241012 SA 08-10: Init EDA. Evaluated differents methods to check association between 2 binary variables. EDA for `Sex` variable done. 
+- Next: check Pclass.
 
 
