@@ -50,6 +50,7 @@ pip freeze > requirements.txt
 ## Changelog
 
 - 20241012 SA 08-10: Init EDA. Evaluated differents methods to check association between 2 binary variables. EDA for `Sex` variable done. 
-- Next: check Pclass.
+- 20241012 SA 11-13: EDA for PClass variable done. Evaluated methods for 3 categorical variables, 1 multiclass. 
+- Next: Incorporate Pclass to model.
 
 
