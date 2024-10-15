@@ -1,0 +1,1 @@
+{"best_params": {"criterion": "entropy", "splitter": "best", "max_depth": 1, "min_samples_split": 4, "min_samples_leaf": 6}, "best_value": 0.7865534399413775, "metric_names": ["accuracy"]}
