@@ -53,8 +53,8 @@ pip freeze > requirements.txt
 - 20241012 SA 11-13: EDA for PClass variable done. Evaluated methods for 3 categorical variables, 1 multiclass.
 - 20241015 MA 16-19: Incorporated Pclass to model without improve. EDA for Age started. 
 - 20241016 MI 05-07: EDA for Age done, incorporated to modeling and submission made. There were not good results, resulting in overfitting with respect previous submissions.
-- 20241023: MA 05-08: EDA for name.
-- Next: Continue EDA for Name.
+- 20241023: MA 05-08: EDA for name done. Incorporated Title feature to model. Submission and Improvement with respect model_03!.
+- Next: Continue EDA for Sibs and Parch.
 
 
 
